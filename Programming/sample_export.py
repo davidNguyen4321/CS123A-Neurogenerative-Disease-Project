@@ -5,7 +5,7 @@ raw = pd.read_csv("output_data.raw", sep=r"\s+", nrows=10)
 
 # Load SNP annotation file
 bim = pd.read_csv(
-    r"C:\Users\HP\Downloads\ADNI_GO_2_OmniExpress\ADNI_GO_2_Forward_Bin.bim",
+    "ADNI_GO_2_Forward_Bin.bim",
     sep=r"\s+",
     header=None,
     names=["Chr", "SNP Name", "Genetic_Distance", "Position", "Allele1", "Allele2"]
